@@ -1,0 +1,1 @@
+find a sha before multiple files are deleted then do a git reset --hard
